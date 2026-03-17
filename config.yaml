@@ -1,0 +1,13 @@
+redmine:
+  url: "http://localhost:3000"
+  api_key: "378c2984ba51652f453ead86752e73038d158c43"
+
+llm:
+  model: "qwen3:4b"
+  temperature: 0.1
+  ollama_url: "http://localhost:11434"
+
+agent:
+  max_tool_rounds: 5
+  max_history_messages: 10
+  timeout_seconds: 120
